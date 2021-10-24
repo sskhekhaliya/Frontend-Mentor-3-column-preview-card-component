@@ -1,0 +1,100 @@
+body{
+  background: hsl(0, 0%, 95%);
+  display: flex;
+flex-flow: column;
+height: 100vh;
+align-items: center;
+justify-content: center;
+margin: 0;
+}
+
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 14px;
+  line-height: 1.5;
+      margin-bottom: 100px;
+}
+.container{
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container-item{
+  max-width: 195px;
+      padding: 50px 100px 50px 45px;
+}
+
+.btn {
+  background: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 25px;
+    padding: 11px 25px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.one{
+  background: hsl(31, 77%, 52%);
+}
+.btn-one{
+  color: hsl(31, 77%, 52%);
+}
+
+
+
+.two{
+  background: hsl(184, 100%, 22%);
+}
+.btn-two{
+  color: hsl(184, 100%, 22%);
+}
+
+.three{
+  background: hsl(179, 100%, 13%);
+}
+.btn-three{
+  color: hsl(179, 100%, 13%);
+}
+
+.btn:hover, .btn:active{
+  color: hsla(0, 0%, 100%, 0.75);
+  border: solid 2px;
+  border-color: #fff;
+  background-color: Transparent;
+  cursor: pointer;
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 5px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width:720px) {
+  body{
+    height: 100%;
+    margin: 15% 10%;
+  }
+.container{
+  flex-flow: column;
+
+}
+.container-item{
+  max-width: max-content;
+  padding: 50px 50px 50px 40px;
+}
+}
